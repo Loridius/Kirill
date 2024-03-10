@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(..//img/БЭК.png) gray scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 1440px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+menu {
+    list-style-type: none;
+}
+
+.menu-wrapper {
+    font-size: 20pt;
+}
+
+.menu-wrapper > a,menu > li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-wrapper > a:hover,menu > li a:hover {
+    text-decoration: underline;
+}
+
+.menu-wrapper menu{
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+
+nav .menu-wrapper:hover menu {
+    display: block;
+}
+
+.header > div:nth-child(2) > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1425px;
+}
+
+.header > div:nth-child(2) > nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+}
+
+.header > div:nth-child(2) > nav > a:hover {
+    text-decoration: underline;
+}
+
+.header > div:nth-child(2) > nav > a > img:hover {
+    filter: opacity(60%);
+}
+
+.forgenParent {
+    background-color: rgba(255, 255, 255, .2);
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.anketa {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 18px;
+    position: relative;
+    left: 30%;
+    border: 2px solid black;
+    width: 737px;
+    height: 391px;
+}
+
+.anketa > h1:first-child {
+    text-align: center;
+    font-size: 32pt;
+}
+
+.anketa > p:first-of-type {
+    text-align: center;
+    font-size: 15pt;
+}
+
+.anketa > div {
+    display: flex;
+    flex-direction: column;
+    width: 584px;
+}
+
+.anketa > div > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.anketa > div > div > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.anketa > div > div > div > input {
+    height: 25px;
+}
+
+.anketa > div > div > div > h1 {
+    font-size: 20pt;
+}
+
+.anketa > div > div:nth-of-type(2) {
+    display: flex;
+    text-align: center;
+    margin-right: 31px;
+}
+
+.anketa > div > div:nth-of-type(2) > input {
+    height: 25px;
+    width: 70px;
+    margin-right: 31px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.Text1 {
+    width: 980px;
+    text-align: justify;
+    margin-bottom: 45px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 20px;
+}
+
+.Text1 > h1:first-of-type {
+    font-size: 40pt;
+}
+
+.Text1 > p:first-of-type {
+    width: 912px;
+    font-size: 20pt;
+}
+
+.Text2 {
+    width: 980px;
+    text-align: justify;
+    margin-bottom: 45px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 20px;
+}
+
+.Text2 > h1:first-of-type {
+    font-size: 40pt;
+}
+
+.Text2 > p:first-of-type {
+    width: 912px;
+    font-size: 20pt;
+}
+
+.collage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.collage div:nth-of-type(1),.collage div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+}
+
+.collage div img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 500ms ease;
+}
+
+.collage:hover div img:not(:hover){
+    border-radius: 5px;
+    scale: 0.9;
+    opacity: 0.5;
+}
+
+.Text3 {
+    width: 980px;
+    text-align: justify;
+    margin-bottom: 45px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 20px;
+}
+
+.Text3 > h1:first-of-type {
+    font-size: 40pt;
+}
+
+.Text3 > p:first-of-type {
+    width: 912px;
+    font-size: 20pt;
+}
+
+.collage2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90px;
+    max-width: 500px;
+}
+
+.collage2 div:nth-of-type(1),.collage2 div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+}
+
+.collage2 div img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 500ms ease;
+}
+
+.collage2:hover div img:not(:hover){
+    border-radius: 5px;
+    scale: 0.9;
+    opacity: 0.5;
+}
+
+.hooter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    width: 1856px;
+    height: 204px;
+    margin-top: 116px;
+}
+
+.hooter > div {
+    margin-left: 50px;
+    margin-top: 47px;
+    margin-bottom: 46px;
+}
+
+.hooter > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hooter > div:first-child > div {
+    text-align: center;
+}
+
+.hooter > div:first-child > div > a {
+    padding: 20px;
+}
+
+.hooter > div:first-child > div > a:hover {
+    opacity: 60%;
+}
+
+.hooter > div > h1{
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 30px ;
+}
+
+.hooter > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-right: 50px;
+}
+
+.hooter > div:nth-child(2) > h1,.hooter > div:nth-child(2) > p {
+    text-align: right;
+}
